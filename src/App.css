@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.bg_Netflix {
+  background-color: #221f1f;
+}
+
+.col img {
+  transition: transform 0.2s;
+}
+
+.col img:hover {
+  transform: scale(1.1);
+  z-index: 3;
+}
+
+.textFooter {
+  font-size: 0.8em;
+}
+
+.footer-links p {
+  margin-bottom: 0.3em;
+  color: #838383;
+}
+.footer-button {
+  color: #838383;
+  border-color: #838383;
+}
